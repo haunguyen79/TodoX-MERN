@@ -18,11 +18,11 @@ import { options } from "@/lib/data";
 const DateTimeFilter = ({ dateQuery, setDateQuery }) => {
   const [open, setOpen] = React.useState(false);
 
-  console.log("dateQuery in DateTimeFilter:", dateQuery);
-  console.log(
-    "Label found:",
-    options.find((option) => option.value === dateQuery)?.label
-  );
+  // console.log("dateQuery in DateTimeFilter:", dateQuery);
+  // console.log(
+  //   "Label found:",
+  //   options.find((option) => option.value === dateQuery)?.label
+  // );
 
   return (
     <Popover open={open} onOpenChange={setOpen}>

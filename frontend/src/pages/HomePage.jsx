@@ -23,6 +23,8 @@ const HomePage = () => {
     try {
       const res = await api.get(`/tasks?filter=${dateQuery}`);
 
+      // console.log("data:", res.data);
+
       setTaskBuffer(res.data.tasks);
       setActiveTaskCount(res.data.activeCount);
       setCompleteTaskCount(res.data.completeCount);

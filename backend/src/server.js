@@ -21,6 +21,7 @@ if (process.env.NODE_ENV !== "production") {
 
 app.use("/api/tasks", tasksRoute);
 
+// Serve frontend in production
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
@@ -29,9 +30,8 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-// Kết nối DB rồi mới start server
+// Connect DB and Start server
 connectDB().then(() => {
-  // Kết nối DB thành công thì mới chạy server
   app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
   });

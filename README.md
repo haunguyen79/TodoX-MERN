@@ -1,7 +1,7 @@
 # 📝 TodoX MERN
 
-TodoX MERN là ứng dụng **Quản lý công việc (Todo App)** được xây dựng bằng **MERN Stack (MongoDB, Express, React, Node.js)**, kết hợp **Tailwind CSS** và **shadcn/ui** để tạo giao diện hiện đại, responsive và dễ sử dụng
-Ứng dụng hỗ trợ **CRUD** (thêm, sửa, xoá và quản lý danh sách công việc), **lọc theo trạng thái/thời gian**, **pagination**, **thống kê**, đồng thời đã được triển khai trên Render.
+- **TodoX MERN** là ứng dụng **Quản lý công việc (Todo App)** được xây dựng bằng **MERN Stack (MongoDB, Express, React, Node.js)**, kết hợp **Tailwind CSS** và **shadcn/ui** để tạo giao diện hiện đại, responsive và dễ sử dụng.
+- Ứng dụng hỗ trợ **CRUD** (thêm, sửa, xoá và quản lý danh sách công việc), **lọc theo trạng thái/thời gian**, **pagination**, **thống kê**, đồng thời đã được triển khai trên Render.
 
 
 🔗 **Demo**: [TodoX MERN](https://todox-mern.onrender.com/)
