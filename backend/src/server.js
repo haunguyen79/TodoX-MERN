@@ -16,14 +16,7 @@ const app = express();
 app.use(express.json()); // Giúp server hiểu được dữ liệu gửi lên từ client là dạng JSON
 
 if (process.env.NODE_ENV !== "production") {
-  app.use(
-    cors({
-      origin: [
-        "http://localhost:5173",
-        "https://todox-mern-fullstack.vercel.app",
-      ],
-    })
-  );
+  app.use(cors({ origin: "http://localhost:5173" }));
 }
 
 app.use("/api/tasks", tasksRoute);
